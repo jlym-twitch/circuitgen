@@ -20,7 +20,7 @@ test: lint generate
 install-tools:
 	@mkdir -p bin
 	go install github.com/kisielk/errcheck
-	go install honnef.co/go/tools/cmd/staticcheck
+	go install honnef.co/go/tools/cmd/staticcheck@v0.3.2
 	go install golang.org/x/lint/golint
 	go install golang.org/x/tools/cmd/goimports
 	go install github.com/securego/gosec/cmd/gosec
